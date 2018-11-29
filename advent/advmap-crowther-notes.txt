@@ -1,0 +1,16 @@
+The map is much smaller than the Woods-modified game, although many of the iconic locations like the Hall of the Mountain King and J2 are there. However, one gets the strong sense this was an abandoned work in progress. The bottom level (with Bedquilt and the Swiss Cheese Room) has exits that don�t work, and one that crashes the game. The area even has a sign that says: �CAVE UNDER CONSTRUCTION BEYOND THIS POINT. PROCEED AT OWN RISK.� I first took this sign as an signal of danger in the in-game universe, but instead it appears to be Crowther's marker that the code is unfinished past that point.
+
+There's a long featureless hall to the west leading to nothing. Nearby is the twisty maze of passages, all alike, although it's different here than in the Woods version. There's no items and no point in entering the maze (other than noting it is rather less twisty than the one Woods came up with!).
+
+There are three puzzles (grate, bird, and snake) and five treasures (marked at the end with an exclamation point, like THERE ARE MANY COINS HERE!) but they are all distributed very near the Hall of the Mountain King, as if Crowther had just started scattering them. Besides that, there�s no score, and no special message or ending if all the treasures are brought back to the brick building.
+
+The player is forced to keep track of their inventory separate from the game. There is no working INVENTORY command.
+Going down the grate is a one-way trip. However, "PLUGH" works in the Y2 Room to get the player back to the brick building.
+In fact, it's possible to escape "below the grate" to get back "outside grate" by typing "outside".
+XYZZY also seems to be in (it is described in the text and parsed).
+
+There are two ways to get stuck:
+1.) you can use XYZZY to teleport without the lamp, and then can't go anywhere without breaking your neck in a pit.
+2.) you can kill the bird, blocking the ability to solve a later puzzle.
+
+Each hint message is triggered by provoking parser errors three times in a row (i.e., without any valid command intervening) when one of the offending objects is present (the locked grate, the bird, or the snake).
